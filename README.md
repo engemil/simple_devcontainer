@@ -1,1 +1,9 @@
-# simple_devcontainer
+# Simple devcontainer
+
+A simple and bare minimum devcontainer. To quickly clone and experiment with.
+
+## IMPORTANT
+
+If your container crashes with a unknown fault. Most likely you need to delete the container and the image, and rebuild.
+
+I've added a script to do this for us (from Linux hosts). Check the `CLEAN.sh`-script.
