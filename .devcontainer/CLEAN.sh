@@ -36,8 +36,15 @@ remove_images() {
     fi
 }
 
+# Function to prune docker
+prune_docker() {
+    echo "Pruning Docker system..."
+    docker system prune -a --volumes
+}
+
 # Execute the functions
 remove_containers
 remove_images
+prune_docker
 
 echo "Operation completed."

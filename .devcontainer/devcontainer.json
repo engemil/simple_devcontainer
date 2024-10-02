@@ -4,5 +4,5 @@
 	"name": "simple-dev-env",
     "dockerComposeFile": "docker-compose.yml",
     "service": "simple",
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+	"workspaceFolder": "/workspace"
 }
